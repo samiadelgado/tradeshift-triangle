@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test frontend Sami</title>
+    <link rel="stylesheet" href="http://d5wfroyti11sa.cloudfront.net/prod/client/ts-10.1.0.min.css"/>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+        <header data-ts="TopBar"></header>
+		<main data-ts="Main">
+			<div data-ts="MainContent">
+                <h1 class="title-test">Triangle Challenge</h1>
+        
+                <form action="#" data-ts="Form" class="form">
+                        <fieldset>
+                            <label>
+                                <span> Introduce Side A </span>
+                                <input id="sideA" type="number"/>
+                            </label>
+                            <label>
+                                    <span> Introduce Side B </span>
+                                    <input id="sideB" type="number"/>
+                                </label>
+                                <label>
+                                        <span> Introduce Side C </span>
+                                        <input id="sideC" type="number"/>
+                                    </label>
+                        </fieldset>
+                        <button data-ts="Button" id="calculate" class="ts-primary aux-button">
+                            <span>the triangle is...</span>
+                        </button>
+                    </form>
+                    <h2 id="result" class="result-text"></h2>
+			</div>
+		</main>
+
+    <script src="//d5wfroyti11sa.cloudfront.net/prod/client/ts-10.1.0.min.js"></script>
+    <script src="index.js"></script>    
+</body>
+</html>

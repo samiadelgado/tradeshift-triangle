@@ -1,0 +1,17 @@
+.form{
+    display:block;
+    margin:0 auto;
+    width:50%;
+}
+
+.aux-button{
+    margin-top:20px;
+}
+
+.result-text{
+    text-align:center;
+}
+
+.title-test{
+    text-align: center;
+}
